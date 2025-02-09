@@ -1,0 +1,119 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgba(99, 225, 187, 0.429);
+
+}
+/* h1 {
+    text-align: center;
+    color: darkslateblue;
+
+} */
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: aquamarine;
+    border: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    padding: 20px;
+    border-radius: 8px;
+}
+fieldset{
+    border:  2px solid #3498db;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: rgba(93, 93, 97, 0.91);
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: #075fb6;
+
+}
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px ;
+    margin-top: 4px;
+    border: 1px solid #3dc1f0f1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(158, 140, 238);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    background-color :#68b1e5;
+    
+}
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #3498db;
+    box-shadow: 0 4px 8px rgba(11,7,211,0.4);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    background-color: aliceblue;
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #68b1e5;
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    text-align: center;
+    color: black;
+    /* border-image: url{}; */
+}
+h1{
+    background-color: blueviolet;
+    color: darkblue;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+h2 ,p{
+   margin: 10px 0;
+
+}
+h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: chocolate;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 20px;
+}
+img{
+    max-width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    width: 100px;
+}
+
